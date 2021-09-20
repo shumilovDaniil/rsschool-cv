@@ -57,6 +57,7 @@ img {
 .profile_title {
     text-transform:uppercase;
     letter-spacing: 1.5px;
+    font-size: 18px;
     padding-bottom: 15px;
     border-bottom: 2px solid #FECA04;
 }
@@ -84,8 +85,14 @@ img {
     transform: translate(-50%, -10%);
 }
 
-.profile_edu h3 {
+.profile_edu h2 {
     text-transform:uppercase;
+}
+
+.profile_edu h5 {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 5px;
 }
 
 .content {
@@ -163,7 +170,7 @@ img {
     margin: 0 20px 20px 0;
 }
 
-.content_project ul li b {
+.content_project ul li h4 {
     display: inline-block;
     font-size: 14px;
     margin-bottom: 5px;
@@ -204,6 +211,14 @@ img {
     color: #fff;
     padding: 5px 0 0 20px;
     overflow: auto;
+}
+
+.content_code .code_red {
+    color: #ff1952;
+}
+
+.content_code .code_yellow {
+    color: #ffdc19;
 }
 
 .footer {
