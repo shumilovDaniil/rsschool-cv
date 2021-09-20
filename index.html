@@ -21,7 +21,7 @@
                 </div>
                 <div class="profile_wrapper">
                     <div class="profile_contacts">
-                        <h3 class="profile_title">Contacts</h3>
+                        <h2 class="profile_title">Contacts</h2>
                         <ul>
                             <li>
                                 <strong>Phone</strong><br>
@@ -42,8 +42,11 @@
                         </ul>
                     </div>
                     <div class="profile_edu">
-                        <h3 class="profile_title">Education</h3>
+                        <h2 class="profile_title">Education</h2>
                         <ul>
+                            <li>
+                                <h5>Tyumen Industrial University</h5>
+                            </li>
                             <li>
                                 <a href="https://itgid.info/certificate/view?Certificate%5Buid%5D=xvhu3sspsb">Itgid javascript 2.0</a>
                             </li>
@@ -90,7 +93,7 @@
                                 <a href="https://github.com/shumilovDaniil/Sakola">
                                     <img src="./img/sakola_img.jpg" alt="Sakola project">
                                 </a><br>
-                                <b>Sakola - Educational site</b>
+                                <h4>Sakola - Educational site</h4>
                                 <ul>
                                     <li>HTML</li>
                                     <li>CSS</li>
@@ -101,7 +104,7 @@
                                 <a href="https://github.com/shumilovDaniil/puma-app">
                                     <img src="./img/puma_img.jpg" alt="Puma project">
                                 </a><br>
-                                <b>Puma - SPA</b>
+                                <h4>Puma - SPA</h4>
                                 <ul>
                                     <li>React</li>
                                     <li>Redux</li>
@@ -112,7 +115,7 @@
                                 <a href="https://github.com/shumilovDaniil/boosted-usa-landing">
                                     <img src="./img/boosted_img.jpg" alt="Boosted project">
                                 </a><br>
-                                <b>Boosted - Simple landing</b>
+                                <h4>Boosted - Simple landing</h4>
                                 <ul>
                                     <li>HTML</li>
                                     <li>CSS</li>
@@ -145,16 +148,16 @@
                     <div class="content_code">
                         <h3 id="code" class="content_title">My code</h3>
                         <pre>
-<code>function outStation() {
-  let out = '';
-  let keys = document.querySelector('.i-18').value;
+<code><span class="code_red">function</span> outStation() {
+  <span class="code_red">let</span> out = '';
+  <span class="code_red">let</span> keys = document.querySelector(<span class="code_yellow">'.i-18'</span>).value;
 
-  if (station[keys] !== undefined) {
-    for (let i = 0; i &lt; station[keys].length; i++) {
+  <span class="code_red">if</span> (station[keys] !== undefined) {
+    <span class="code_red">for</span> (<span class="code_red">let</span> i = 0; i &lt; station[keys].length; i++) {
     out += station[keys][i] + ' ';
     }
   }
-  document.querySelector('.out-18').innerHTML = out;
+  document.querySelector(<span class="code_yellow">'.out-18'</span>).innerHTML = out;
 }</code>
                         </pre>
                     </div>
