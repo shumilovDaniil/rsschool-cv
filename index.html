@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <script src="./script.js" defer></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <main class="main">
+            <aside class="profile">
+                <div class="profile_img">
+                    <img src="./img/img-1.jpg" alt="Profile image">
+                </div>
+                <div class="profile_wrapper">
+                    <div class="profile_contacts">
+                        <h3 class="profile_title">Contacts</h3>
+                        <ul>
+                            <li>
+                                <strong>Phone</strong><br>
+                                <a href="tel:+79224807638">+ 7 922 4807 638</a>
+                            </li>
+                            <li>
+                                <strong>E-mail</strong><br>
+                                <a href="mailto:shumilov.daniil.s@gmail.com">shumilov.daniil.s@gmail.com</a>
+                            </li>
+                            <li>
+                                <strong>Phone</strong><br>
+                                <a href="https://github.com/shumilovDaniil">shumilovDaniil</a>
+                            </li>
+                            <li>
+                                <strong>Telegram</strong><br>
+                                <a href="#">@shum_daniil</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="profile_edu">
+                        <h3 class="profile_title">Education</h3>
+                        <ul>
+                            <li>
+                                <a href="https://itgid.info/certificate/view?Certificate%5Buid%5D=xvhu3sspsb">Itgid javascript 2.0</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+            <section class="content">
+                <div class="content_burger">
+                    <nav>
+                        <ul class="content_burger-menu">
+                            <li>
+                                <a href="#about">About me</a>
+                            </li>
+                            <li>
+                                <a href="#projects">My projects</a>
+                            </li>
+                            <li>
+                                <a href="#lang">Languages</a>
+                            </li>
+                            <li>
+                                <a href="#skills">My skills</a>
+                            </li>
+                            <li>
+                                <a href="#code">My code</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="content_burger-btn">☰</button>
+                </div>
+                <div class="content_name">
+                    <h1>Daniil <span>Shumilov</span></h1>
+                    <strong>Frontend dev.</strong>
+                </div>
+                <div class="content_wrapper">
+                    <div class="content_about">
+                        <h3 id="about" class="content_title">About me</h3>
+                        <p>I'm 20 years old, I devote my free time to study. I really like frontend, every day I learn something new and practice writing code.</p>
+                    </div>
+                    <div class="content_project">
+                        <h3 id="projects" class="content_title">My projects</h3>
+                        <ul>
+                            <li class="project_item">
+                                <a href="https://github.com/shumilovDaniil/Sakola">
+                                    <img src="./img/sakola_img.jpg" alt="Sakola project">
+                                </a><br>
+                                <b>Sakola - Educational site</b>
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JS</li>
+                                </ul>
+                            </li>
+                            <li class="project_item">
+                                <a href="https://github.com/shumilovDaniil/puma-app">
+                                    <img src="./img/puma_img.jpg" alt="Puma project">
+                                </a><br>
+                                <b>Puma - SPA</b>
+                                <ul>
+                                    <li>React</li>
+                                    <li>Redux</li>
+                                    <li>Node JS</li>
+                                </ul>
+                            </li>
+                            <li class="project_item">
+                                <a href="https://github.com/shumilovDaniil/boosted-usa-landing">
+                                    <img src="./img/boosted_img.jpg" alt="Boosted project">
+                                </a><br>
+                                <b>Boosted - Simple landing</b>
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JS</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="content_lang">
+                        <h3 id="lang" class="content_title">Languages</h3>
+                        <ul>
+                            <li>
+                                <strong>Russian  - Native</strong>
+                                <progress value="90" max="100"></progress>
+                            </li>
+                            <li>
+                                <strong>English - A2</strong>
+                                <progress value="30" max="100"></progress>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="content_skills">
+                        <h3 id="skills" class="content_title">My skills</h3>
+                        <ul>
+                            <li>HTML / CSS / SCSS</li>
+                            <li>Basic JS</li>
+                            <li>Git</li>
+                        </ul>
+                    </div>
+                    <div class="content_code">
+                        <h3 id="code" class="content_title">My code</h3>
+                        <pre>
+<code>function outStation() {
+  let out = '';
+  let keys = document.querySelector('.i-18').value;
+
+  if (station[keys] !== undefined) {
+    for (let i = 0; i &lt; station[keys].length; i++) {
+    out += station[keys][i] + ' ';
+    }
+  }
+  document.querySelector('.out-18').innerHTML = out;
+}</code>
+                        </pre>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer_wrapper">
+                        <a class="footer_item" href="https://github.com/shumilovDaniil">my Github</a>
+                        <strong class="footer_item">2021</strong>
+                        <a class="footer_item" href="https://rs.school/"><img src="./img/rs_school.svg" alt="RS School logotype"></a>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>
