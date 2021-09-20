@@ -13,3 +13,10 @@ I am 20 years old, I devote my free time to study. I really like the frontend, e
 * HTML / CSS
 * Basic JS
 * GIT
+
+## Education:
+* itgid.info - course JavaScript v.2.0
+
+## Languages:
+* Russian: Native
+* English: A2
